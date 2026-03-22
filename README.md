@@ -1,7 +1,36 @@
-# Tauri + Vue + TypeScript
+# mojiuti
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+ただ文字を打つための、最小限のデスクトップアプリです。
 
-## Recommended IDE Setup
+Tauri v2, Vue, Bun, shadcn-vue で作っています。
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+## できること
+
+- 文章を打つ
+- ファイルを開く
+- ファイルを保存する
+- 開いていたファイルを次回起動時に復元する
+- フォントやテーマを切り替える
+
+## 開発
+
+```bash
+bun install
+bun run dev
+```
+
+## ビルド
+
+```bash
+bun run build
+bun run tauri build
+```
+
+## 使っているもの
+
+- Vue 3
+- Tauri v2
+- Bun
+- shadcn-vue
+- Tauri store plugin
+
