@@ -4,6 +4,8 @@
 
 Tauri v2, Vue, Bun, shadcn-vue で作っています。
 
+このリポジトリの実装と文面は、AI アシスタントによって作成されています。
+
 ## できること
 
 - 文章を打つ
@@ -33,4 +35,3 @@ bun run tauri build
 - Bun
 - shadcn-vue
 - Tauri store plugin
-
